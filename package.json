@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "install": "npm install --legacy-peer-deps",
-    "build": "npm run install && npm run compile"
+    "build": "vite build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
