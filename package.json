@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "install": "npm install --force"
+    "install": "npm install --force",
+    "build": "npm run install && npm run compile"
   },
   "dependencies": {
     "clsx": "^2.1.1",
