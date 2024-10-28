@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "install": "npm install --force",
+    "install": "npm install --legacy-peer-deps",
     "build": "npm run install && npm run compile"
   },
   "dependencies": {
